@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Assets/logo.png";
+import Dropdown from "./Dropdown";
 
 function NavBar() {
   return (
@@ -16,7 +17,9 @@ function NavBar() {
           <a href="/#">About Us</a>
         </li>
         <li className="mx-6">
-          <a href="/#">Services</a>
+          <a href="/#">
+            <Dropdown />
+          </a>
         </li>
         <li className="mx-6">
           <a href="/#">Take Course</a>

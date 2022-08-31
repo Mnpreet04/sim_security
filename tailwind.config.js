@@ -9,5 +9,11 @@ module.exports = {
       colors: { "black-chocolate": "#0F1108" },
     },
   },
-  plugins: [],
+  important: true,
+  plugins: [
+    function ({ addVariant }) {
+      addVariant("child", "& > *");
+      addVariant("child-hover", "& > *:hover");
+    },
+  ],
 };
