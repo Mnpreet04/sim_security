@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Assets/logo.png";
-import Dropdown from "./Dropdown";
+//import Dropdown from "./Dropdown";
 
 function NavBar() {
   return (
@@ -18,7 +18,8 @@ function NavBar() {
         </li>
         <li className="mx-6">
           <a href="/#">
-            <Dropdown />
+            {/*<Dropdown /> */}
+            Services
           </a>
         </li>
         <li className="mx-6">
