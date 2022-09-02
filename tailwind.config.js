@@ -5,8 +5,14 @@ module.exports = {
     extend: {
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
+        RobotoMono: ["Roboto Mono", "monospace"],
+        RobotoSlab: ["Roboto Slab", "serif"],
       },
-      colors: { "black-chocolate": "#0F1108" },
+      colors: {
+        "black-chocolate": "#0F1108",
+        mehroonRang: "#A93F55",
+        goldenRang: "#de9e36",
+      },
     },
   },
   important: true,

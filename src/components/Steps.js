@@ -2,15 +2,15 @@ import React from "react";
 
 function Steps() {
   return (
-    <div className="m-0 h-100 p-4 mx-w-2xl bg-gray-300 flex">
-      <div className="p-10 bg-gray-600 mx-3 border-2 divide-slate-400 rounded-md">
-        <h1>1</h1>
+    <div className=" h-100  bg-black flex">
+      <div className="w-2/12 p-2 bg-gray-600 m-0.5  ">
+        <h1 className="text-goldenRang text-5xl pt-5 font-extrabold">1</h1>
         <p>MEET BASIC REQUIREMENTS</p>
         <p>Be 18 years of age or older. </p>
         <p>Have a clean criminal record. </p>
         <p>Can legally work in Canada</p>
       </div>
-      <div className="p-10 bg-orange-300 mx-3 border-2 divide-slate-400 rounded-md">
+      <div className="w-2/12 p-10 bg-goldenRang m-0.5  ">
         <h1>2</h1>
         <p>TAKE OUR ONLINE TRAINING</p>
         <p>Purchase the course directly from our website. </p>
@@ -20,7 +20,7 @@ function Steps() {
           Buy Now
         </button>
       </div>
-      <div className="p-10 bg-gray-600 mx-3 border-2 divide-slate-400 rounded-md">
+      <div className="w-2/12 p-10 bg-gray-600 m-0.5  ">
         <h1>3</h1>
         <p>GET YOUR FIRST AID/CPR CERTIFICATE</p>
         <p>
@@ -30,23 +30,22 @@ function Steps() {
         <p>OR</p>
         <p>Book an appointment with us for training</p>
       </div>
-      <div className="p-10 bg-orange-300 mx-3 border-2 divide-slate-400 rounded-md">
+      <div className="w-2/12 p-10 bg-goldenRang m-0.5  ">
         <h1>4</h1>
         <p>RECEIVE TRAINING COMPLETION NUMBER (TCN)</p>
         <p>
           You will get TCN via email within 3-4 business days upon completion of
           your course and submission of your first-aid CPR certificate.{" "}
         </p>
-        
       </div>
-      <div className="p-10 bg-gray-600 mx-3 border-2 divide-slate-400 rounded-md">
+      <div className="w-2/12 p-10 bg-gray-600 m-0.5 ">
         <h1>5</h1>
         <p>TAKE OUR ONLINE TRAINING</p>
         <p>Purchase the course directly from our website. </p>
         <p>Login with credentials sent to you in email. </p>
         <p>Course starting from $89.99 only.</p>
       </div>
-      <div className="p-10 bg-orange-300 mx-3 border-2 divide-slate-400 rounded-md">
+      <div className="w-2/12 p-10 bg-goldenRang m-0.5  ">
         <h1>6</h1>
         <p>TAKE OUR ONLINE TRAINING</p>
         <p>Purchase the course directly from our website. </p>

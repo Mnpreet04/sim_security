@@ -9,8 +9,8 @@ function NavBar() {
         <img src={logo} alt="Sim_Security" />
       </div>
 
-      <ul className="flex flex-row justify-between items-center">
-        <li className="mx-6">
+      <ul className="flex flex-row justify-between items-center font-Montserrat tracking-wider">
+        <li className="mx-6 ">
           <a href="/#">Home</a>
         </li>
         <li className="mx-6">
@@ -28,9 +28,9 @@ function NavBar() {
         <li className="mx-6">
           <a href="/#">Blog</a>
         </li>
-        <li className="mx-6">
+        {/* <li className="mx-6">
           <a href="/#">Contact</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
