@@ -10,6 +10,7 @@ import Training from "./pages/Training";
 import Licensing from "./pages/Licensing";
 import Certification from "./pages/Certification";
 import SecurityInformation from "./components/SecurityInformation";
+import StespsToApply from "./components/StespsToApply";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <Steps />
               <Services />
               <SecurityInformation/>
+              <StespsToApply/>
             </Fragment>
           }
         />

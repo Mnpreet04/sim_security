@@ -2,7 +2,7 @@ import React from "react";
 
 function TrainingTypes() {
   return (
-    <div className="bg-gray-900 text-white pt-3 pb-10">
+    <div className="bg-steelgrayRang text-white pt-3 pb-10">
       <h2 className="text-3xl pt-4 font-bold font-RobotoSlab tracking-wide ">
         Get Your Security Guard Licence Now!
       </h2>
