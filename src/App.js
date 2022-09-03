@@ -11,6 +11,7 @@ import Licensing from "./pages/Licensing";
 import Certification from "./pages/Certification";
 import SecurityInformation from "./components/SecurityInformation";
 import StespsToApply from "./components/StespsToApply";
+import DummyContainer from "./components/DummyContainer";
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
               <TrainingTypes />
               <Steps />
               <Services />
-              <SecurityInformation/>
-              <StespsToApply/>
+              <SecurityInformation />
+              {/* <StespsToApply /> */}
+              <DummyContainer />
             </Fragment>
           }
         />
@@ -40,8 +42,8 @@ function App() {
       <Route path=""  element={<Steps/>} />
       <Route path=""  element={<Services/>} /> */}
         <Route path="/training" element={<Training />} />
-        <Route path="/licensing" element={<Licensing/>}></Route>
-        <Route path="/certification" element={<Certification/>}></Route>
+        <Route path="/licensing" element={<Licensing />}></Route>
+        <Route path="/certification" element={<Certification />}></Route>
       </Routes>
     </div>
   );
