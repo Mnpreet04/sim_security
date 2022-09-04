@@ -10,8 +10,10 @@ import Training from "./pages/Training";
 import Licensing from "./pages/Licensing";
 import Certification from "./pages/Certification";
 import SecurityInformation from "./components/SecurityInformation";
-import StespsToApply from "./components/StespsToApply";
+// import StespsToApply from "./components/StespsToApply";
 import DummyContainer from "./components/DummyContainer";
+import Enroll from "./components/Enroll";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
               <SecurityInformation />
               {/* <StespsToApply /> */}
               <DummyContainer />
+              <Enroll/>
             </Fragment>
           }
         />
@@ -44,6 +47,7 @@ function App() {
         <Route path="/training" element={<Training />} />
         <Route path="/licensing" element={<Licensing />}></Route>
         <Route path="/certification" element={<Certification />}></Route>
+        <Route path="/Enroll"  element={<Login/>}></Route>
       </Routes>
     </div>
   );
